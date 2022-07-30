@@ -1,0 +1,88 @@
+.bioHeader {
+    text-align: center;
+    font-size: 30px;
+    
+    /* justify-content: center; */
+    
+}
+
+.listBioNav {
+    display: inline-flex;
+}
+
+.bioNav {
+    border: solid black 3.56px;
+    max-width:800px;
+    min-width: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    margin-right: 100px;
+    font-size: 20px;
+    /* background-color: cyan; */
+    border: 2px solid black;
+    /* border-radius: 100%; */
+    padding: 5px;
+    text-decoration: none;
+}
+
+#resume {
+    margin-right: 100px;
+    font-size: 20px;
+    /* background-color: cyan; */
+    border: 2px solid black;
+    /* border-radius: 100%; */
+    padding: 5px;
+    text-decoration: none;
+}
+
+#projects {
+    margin-right: 100px;
+    font-size: 20px;
+    /* background-color: cyan; */
+    border: 2px solid black;
+    /* border-radius: 100%; */
+    padding: 5px;
+    text-decoration: none;
+}
+
+#links {
+    margin-right: 100px;
+    font-size: 20px;
+    /* background-color: cyan; */
+    border: 2px solid black;
+    /* border-radius: 100%; */
+    padding: 5px;
+    text-decoration: none;
+}
+
+.bioArticles {
+    display: inline-flex;
+    /* border: solid black 2px; */
+}
+
+#bioArticle1 {
+    border: solid black 3.5px;
+    font-size: 20px;
+    /* margin:auto; */
+}
+
+#bioArticle2 {
+    border: solid black 3.5px;
+    border-left: none;
+    font-size: 20px;
+    /*  */
+}
+
+#article1Photo {
+    height: 250px;
+    width: 250px;
+}
+
+#article2Photo {
+    height: 250px;
+    width: 250px;
+}
