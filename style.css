@@ -8,14 +8,54 @@
 body {
     background-color: antiquewhite;
 }
+nav {
+    margin: 100px 60px;
+}
 
-.nav {
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: midnightblue;
+    position: relative;
+}
+nav li a {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#links{
+    color: white;
+    border: 1px solid black;
+}
+
+nav li a:hover {
+    background-color: lightseagreen;
+}
+
+nav ul.sub {
+    position: absolute;
+    display: none;
+}
+/* .nav {
     text-align: center;
     border: 3px solid black;
     /* border-top: 0; */
-}
+/* }  */
 
-.navBar {
+/* .navBar {
     display: inline-flex;
     text-align: center;
     padding: 3px;
@@ -62,4 +102,4 @@ body {
     padding: 5px;
     text-decoration: none;
     
-}
+} */

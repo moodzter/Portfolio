@@ -1,0 +1,46 @@
+body {
+    background-color: antiquewhite;
+}
+
+#links {
+    color: white;
+    border: 1px solid black;
+}
+
+nav {
+    margin: 100px 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: midnightblue;
+    position: relative;
+}
+nav li a {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: lightseagreen;
+}
+
+nav ul.sub {
+    position: absolute;
+    display: none;
+}
+/* .
