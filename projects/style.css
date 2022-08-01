@@ -1,7 +1,80 @@
 body {
     background-color: antiquewhite;
+    text-align: center;
 }
 
+#project1Pic {
+    height: 250px;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#project2Pic {
+    height: 250px;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#project3Pic {
+    height: 250px;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+.projectsDiv {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-right:100px;
+    width: 50%;
+    position: absolute;
+}
+
+@media (max-width: 1300px) {
+    .projects li {
+        display: block;
+        position: relative;
+    }
+}
+
+.projects {
+    list-style: none;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.projects li {
+    padding: 100%;
+    padding-top: 0%;
+    border: 1px solid black;
+    background-color: navy;
+    color: white;
+    max-width: fit-content;
+}
+/* .projects div {
+    border: 2px solid black;
+    display:inline-flex;
+    margin: 0;
+    float: left;
+   
+    
+} */
 #links {
     color: white;
     border: 1px solid black;
@@ -9,12 +82,15 @@ body {
 
 nav {
     margin: 100px 60px;
+    display: flex;
+    /* float: left; */
 }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 nav li {
@@ -25,6 +101,7 @@ nav li {
     text-align: center;
     background-color: midnightblue;
     position: relative;
+    display: block;
 }
 nav li a {
     border: 1px solid black;
@@ -40,7 +117,7 @@ nav li a:hover {
 }
 
 nav ul.sub {
-    position: absolute;
+    position: relative;
     display: none;
 }
 /* .
