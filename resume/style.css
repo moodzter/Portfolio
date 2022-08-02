@@ -1,14 +1,62 @@
 body {
     background-color: antiquewhite;
+    text-align: center;
+    
+}
+
+#info2 {
+    margin-left:2.6%;
+}
+
+.info {
+    margin-right: 20%;
+}
+
+.aboutMe {
+    text-align: left;
+    margin-left: 20%;
+}
+
+.header {
+    background-color: navy;
+    color: white;
+    margin-top: 0px;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.line {
+    width: 80%;
+    height: 5px;
+}
+
+.resumeList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+.resumeList li {
+    padding-right: 40px;
+}
+
+#wrapper {
+    background-color: navy;
+    border: 2px solid lightseagreen;
 }
 
 #links {
     color: white;
-    border: 1px solid black;
+    border: 1px solid lightseagreen;
 }
 
 nav {
-    margin: 100px 60px;
+    margin: 50px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
@@ -27,7 +75,7 @@ nav li {
     position: relative;
 }
 nav li a {
-    border: 1px solid black;
+    border: 1px solid lightseagreen;
     width: 100%;
     height: 100%;
     display: block;

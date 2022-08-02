@@ -11,4 +11,8 @@ $(() => {
             $('ul.sub').slideUp(300)
         }
     )
+
+    // const revealResume = () => {
+
+    // }
 })

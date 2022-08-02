@@ -3,94 +3,65 @@ body {
     text-align: center;
 }
 
-#project1Pic {
-    height: 250px;
-    width: fit-content;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+#p3 {
+    margin-bottom: 50px;
 }
 
-#project2Pic {
-    height: 250px;
-    width: fit-content;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+.description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color:blue;
+    color:white;
+    border: 1px solid black;
+    border-radius: 10%;
 }
 
-#project3Pic {
-    height: 250px;
-    width: fit-content;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+.description:hover {
+    background-color: navy;
+}
+
+.line {
+    width: 80%;
+    height: 5px;
+}
+
+
+.pictures {
+    border: 3px solid black;
+    border-radius: 5%;
+    margin-top: 30px;
+    width:45%;
+}
+
+.header {
+    color: white;
+    margin-top: 0px;
+    padding: 5px;
+    font-size: 2rem;
 }
 
 .wrapper {
-    display: inline-block;
-}
-
-.projectsDiv {
-    /* border: 2px solid red; */
-    display: flex;
-    margin-left: 100px;
-    margin-top: 0;
-    margin-right:100px;
-    width: 50%;
-    position: absolute;
-}
-
-@media (max-width: 1300px) {
-    .projects li {
-        display: block;
-        position: relative;
-    }
-}
-
-.projects {
-    list-style: none;
-    /* border: 2px solid blue; */
-    display: flex;
-    justify-content: center;
-    width: 20%;
-}
-
-.projects li {
-    padding: 100%;
-    padding-top: 0%;
-    border: 1px solid black;
     background-color: navy;
-    color: white;
-    max-width: fit-content;
+    border: 2px solid lightseagreen;
 }
-/* .projects div {
-    border: 2px solid black;
-    display:inline-flex;
-    margin: 0;
-    float: left;
-   
-    
-} */
+
 #links {
     color: white;
-    border: 1px solid black;
+    border: 1px solid lightseagreen;
 }
 
 nav {
-    margin: 100px 60px;
+    margin: 50px 60px;
     display: flex;
-    /* float: left; */
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
 }
 
 nav li {
@@ -101,10 +72,9 @@ nav li {
     text-align: center;
     background-color: midnightblue;
     position: relative;
-    display: block;
 }
 nav li a {
-    border: 1px solid black;
+    border: 1px solid lightseagreen;
     width: 100%;
     height: 100%;
     display: block;
@@ -117,7 +87,7 @@ nav li a:hover {
 }
 
 nav ul.sub {
-    position: relative;
+    position: absolute;
     display: none;
 }
-/* .
+

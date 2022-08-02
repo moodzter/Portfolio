@@ -3,6 +3,12 @@
     /* border: 3px solid black; */
     /* background-color: cyan; */
     font-size: 30px;
+    color: white;
+}
+
+.wrapper {
+    background-color: navy;
+    border: 2px solid lightseagreen;
 }
 
 body {
@@ -10,6 +16,9 @@ body {
 }
 nav {
     margin: 100px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
@@ -28,7 +37,7 @@ nav li {
     position: relative;
 }
 nav li a {
-    border: 1px solid black;
+    border: 1px solid lightseagreen;
     width: 100%;
     height: 100%;
     display: block;
@@ -38,7 +47,7 @@ nav li a {
 
 #links{
     color: white;
-    border: 1px solid black;
+    border: 1px solid lightseagreen;
 }
 
 nav li a:hover {
